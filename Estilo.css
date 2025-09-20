@@ -1,0 +1,177 @@
+h1 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    text-shadow: 0 0 15px white;
+    background-color: #a35c5a;
+}
+
+.text1 {
+    display: block;
+    animation: coloritos1 10s infinite;
+    padding: .5rem 1rem;
+    width: 1817px ;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 5px black;
+    /* 16px = 1rem */
+}
+
+@keyframes coloritos1 {
+    0% {
+        color: yellow;
+        text-shadow:0 0 5px yellow;
+        border: 5px solid white;
+    }
+
+    25% {
+        color: white;
+       text-shadow: 0 0 15px white;
+       border: 5px solid #a35c5a;
+    }
+    
+    50% {
+        width: 1483px;
+        color: yellow;
+        text-shadow: 0 0 5px yellow;
+        border: 5px solid white;
+    }   
+   
+    75% {
+        color: white;
+       text-shadow: 0 0 15px white;
+       border: 5px solid #a35c5a;
+    }
+
+    100% {
+        color: yellow;
+        text-shadow: 0 0 5px yellow;
+        border: 5px solid white;
+    }
+}
+
+.hr1 {
+    animation: coloritos2 20s infinite;
+    border: 1px dashed rgb(255, 205, 184);   
+    width: 100%;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+
+@keyframes coloritos2 {
+
+    0% {
+        box-shadow: 0 0 35px rgb(255, 205, 184);
+        border: 5px solid rgb(255, 205, 184);
+    }
+
+    
+    50% {
+        width: 1223px;
+        box-shadow: 0 0 35px white;
+        border: 5px solid white;
+    }   
+   
+
+    100% {
+        box-shadow: 0 0 35px rgb(255, 205, 184);
+        border: 5px solid rgb(254, 205, 184);
+    }
+}
+
+
+.img1 {
+    border-radius: 7px;
+    border: 2px solid rgb(255, 205, 184);
+    background-color: #993232;
+}
+
+
+.text3 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem ;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 620px;
+    text-align: center;
+    font-size: 28px;
+    font-family:'Trebuchet MS';
+    color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(255, 205, 184);
+    background-color: #993232;
+}
+
+.cetralizador{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem ;
+    justify-content: center;
+    align-items: center;
+}
+
+ .text2 {
+    animation: coloritos3 12.5s infinite;
+     margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 7px;
+    width: 345px;
+    background-color: #ffffff;
+    font-size: 32px;
+    color: black;
+}
+
+
+
+@keyframes coloritos3 {
+
+    0% {
+        box-shadow: 0 0 35px rgb(0, 0, 0);
+        border: 5px solid rgb(0, 0, 0);
+    }
+
+    
+    50% {
+        width: 375px;
+        box-shadow: 0 0 15px white;
+        border: 5px solid white;
+    }   
+   
+
+    100% {
+        box-shadow: 0 0 35px rgb(0, 0, 0);
+        border: 5px solid rgb(0, 0, 0);
+    }
+}
+
+ .subtext2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);   
+    width: 195px;
+    background-color: #3a8356; 
+    font-size: 32px;
+    color: rgb(30, 255, 0);
+    border-radius: 20px;
+}
+
+ .subtext3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);   
+    width: 195px;
+    background-color: #837e3a;
+    font-size: 22px;
+    color: rgb(255, 251, 0);
+    border-radius: 20px;
+}
