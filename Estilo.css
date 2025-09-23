@@ -175,3 +175,71 @@ h1 {
     color: rgb(255, 251, 0);
     border-radius: 20px;
 }
+
+#Ltext2 {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 7px;
+    width: 445px;
+    background-color: #ffffff;
+    font-size: 32px;
+    color: black;
+   
+}
+
+#backgroundL {
+    background-color: DarkSlateGrey;
+    animation: coloritos4 10s infinite;
+}
+
+@keyframes coloritos4 {
+
+    0% {
+       background-color: #833a3a;
+    }
+
+    10% {
+        background-color: #996c32;
+    }
+    
+    
+    20% {
+        background-color: #ada74a;
+    }   
+    
+    
+    30% {
+        background-color: #3b9932;
+    }
+
+    40% {
+        background-color: #323499;
+    }
+
+    50% {
+        background-color: #993290;
+    }
+
+    60% {
+       background-color: #833a3a;
+    }
+
+    70% {
+        background-color: #996c32;
+    }
+    
+    
+    80% {
+        background-color: #ada74a;
+    }   
+    
+    
+    90% {
+        background-color: #3b9932;
+    }
+
+    100% {
+        background-color: #993232;
+    }
+    
+}
